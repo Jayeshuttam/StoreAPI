@@ -1,0 +1,17 @@
+# StoreAPI
+
+created this API just for the general understanding of how data filter works as well as how Pagination works in the project.
+The data is generated from the json file inside the project and uploaded to Mongo server dynamically 
+the data is from furniture store and a file consisiting of this data is name as products.json is in the files.
+
+There is no Frontend which I amy ccreate in future but for now every funbctionality is implemented and verified through Postman.
+
+Technologies use:
+1.NodeJs with Express
+2.MongoDB using Mongoose
+
+Routes:
+localhost:5000/api/v1/products?name=utopia sofa&featured=false&company=ikea&sort=-name&fields=name,price&limit=2&page=2&skip&price=&numericFilters=price>40
+
+functions:
+sort,find,paginate,format as you want using these arguments shown in the route.
